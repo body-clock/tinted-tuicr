@@ -4,3 +4,5 @@ themes/*.toml
 
 # macOS
 .DS_Store
+
+!themes/.gitkeep
