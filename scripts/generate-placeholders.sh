@@ -25,7 +25,7 @@ count=0
 for yaml in "$SCHEMES_DIR"/*.yaml; do
   [ -f "$yaml" ] || continue
   slug="$(basename "$yaml" .yaml)"
-  placeholder="$THEMES_DIR/$slug.toml"
+  placeholder="$THEMES_DIR/base16-${slug}.toml"
   if [ ! -f "$placeholder" ]; then
     echo "# tinted-tuicr placeholder — theme generated at runtime" > "$placeholder"
     count=$((count + 1))
