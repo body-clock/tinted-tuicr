@@ -1,0 +1,6 @@
+# Generated placeholder files
+themes/*.toml
+!themes/.gitkeep
+
+# macOS
+.DS_Store
