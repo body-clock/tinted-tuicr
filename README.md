@@ -35,7 +35,7 @@ In `~/.config/tinted-theming/tinty/config.toml`:
 
 ```toml
 [[items]]
-path = "https://github.com/pperkins/tinted-tuicr"
+path = "https://github.com/body-clock/tinted-tuicr"
 name = "tinted-tuicr"
 hook = "bash ~/.local/share/tinted-theming/tinty/repos/tinted-tuicr/scripts/generate.sh"
 themes-dir = "themes"
